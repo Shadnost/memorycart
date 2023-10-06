@@ -61,12 +61,12 @@ layout_line3.addWidget(ans_Group_Box)
 layout_line4.addWidget(btn_Answer, alignment= (Qt.AlignHCentre | Qt.AlignVCentre))
 
 layout_card = QVBoxLayout()
-layout_card.addLayout(layout_line1, stretch=1)
-layout_card.addLayout(layout_line2, stretch=1)
-layout.stretch(1)
-layout_card.addLayout(layout_line3, stretch=6)
-layout.stretch(1)
-layout_card.addLayout(layout_line4, stretch=1)
+layout_card.addLayout(Layout_line1, stretch=1)
+layout_card.addLayout(Layout_line2, stretch=1)
+layout_card.addStretch(1)
+layout_card.addLayout(Layout_line3, stretch=6)
+layout_card.addLayout(Layout_line4, stretch=1)
+layout_card.addStretch(1)
 
 def show_result():
     radio_Group.hide()
